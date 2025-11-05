@@ -1,17 +1,22 @@
-.. My Python Project documentation master file, created by
-   sphinx-quickstart on Wed Nov  5 10:51:36 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-My Python Project documentation
-===============================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+Welcome to My Python Project's documentation!
+=============================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   modules
+
+API Documentation
+=================
+
+.. autosummary::
+   :toctree: _autosummary
+   :recursive:
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
